@@ -78,6 +78,9 @@ a {
 
 .hero-text {
   flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .hero-text h1 {
@@ -97,7 +100,10 @@ a {
   background-color: #3882f6;
   border-radius: 8px;
 
+  width: fit-content;
+
   padding: 8px 24px 8px 24px;
+  margin-top: 16px;
 }
 
 .hero-image {
