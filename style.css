@@ -1,3 +1,5 @@
+/* TAGS */
+
 html {
   font-family: "Roboto", sans-serif;
 }
@@ -10,12 +12,16 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
   color: white;
 }
+
+/* HEADER CONTAINER */
 
 .header-container {
   width: 100%;
@@ -26,9 +32,25 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 96px;
   
   margin: auto;
   width: 50%;
+}
+
+/* HEADER SHARED RULES */ 
+.header-bar, .hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* HEADER BAR */
+
+.header-bar {
+  margin-top: 16px;
+  flex: 0 0 40px;
 }
 
 .header-bar .logo {
@@ -36,9 +58,21 @@ a {
   color: #f9faf8;
 }
 
+.header-links {
+  display: flex;
+  gap: 24px;
+}
+
 .header-links a {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/* HERO CONTAINER */
+
+.hero-container {
+  margin-bottom: 96px; 
+  gap: 48px;
 }
 
 .hero-text h1 {
