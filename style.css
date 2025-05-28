@@ -94,6 +94,10 @@ a {
 .hero-text a {
   font-size: 18px;
   color: #e5e7eb;
+  background-color: #3882f6;
+  border-radius: 8px;
+
+  padding: 8px 24px 8px 24px;
 }
 
 .hero-image {
