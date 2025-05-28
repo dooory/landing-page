@@ -73,7 +73,7 @@ a {
 
 .hero-container {
   margin-bottom: 96px; 
-  gap: 48px;
+  gap: 96px;
 }
 
 .hero-text {
@@ -92,6 +92,7 @@ a {
 .hero-text p {
   font-size: 18px;
   color: #e5e7eb;
+  text-wrap: pretty;
 }
 
 .hero-text a {
@@ -120,4 +121,5 @@ a {
   flex: auto; 
   max-width: 100%;
   max-height: 100%;
+  border-radius: 12px;
 }
