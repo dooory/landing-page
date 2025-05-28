@@ -130,4 +130,20 @@ a {
 
 .random-info-container {
   width: 100%;
+  background-color: #f9faf8;
+}
+
+.random-info-content {
+  display: flex;
+}
+
+.random-info-container .random-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+} 
+
+.random-info-container .card-text {
+  font-size: 18px;
+  color: #1f2937;
 }
