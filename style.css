@@ -8,8 +8,43 @@ body {
   display: flex;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .header-container {
   width: 100%;
   background-color: #1f2937;
   height: 500px;
+}
+
+.header-bar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-text a {
+  font-size: 18px;
+  color: #e5e7eb;
 }
