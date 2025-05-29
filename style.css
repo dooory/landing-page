@@ -266,3 +266,14 @@ a {
   text-align: center;
   margin-left: 60px;
 }
+
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
