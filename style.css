@@ -145,7 +145,7 @@ a {
 
   padding-top: 48px;
   padding-bottom: 96px;
-  width: 50%;
+  width: 60%;
 }
 
 .random-info-container .random-header {
@@ -195,7 +195,18 @@ a {
 
 .quote-container {
   width: 100%;
-  background-color: #e5e7eb
+  background-color: #e5e7eb;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .quote-text {
@@ -205,5 +216,6 @@ a {
 
 .quote-secondary-text {
   font-size: 28px;
-  color: #1f2a38
+  color: #1f2a38;
+  margin-left: auto;
 }
