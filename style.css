@@ -270,6 +270,12 @@ a {
 /* Footer */
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 32px;
+
   background-color: #1f2937;
 }
 
