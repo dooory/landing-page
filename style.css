@@ -219,3 +219,27 @@ a {
   color: #1f2a38;
   margin-left: auto;
 }
+
+/* Sign Up Container */
+
+.sign-up-container {
+  width: 100%;
+  background-color: #f9faf8;
+}
+
+.sign-up-content {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.sign-up-text {
+  font-size: 28px;
+}
+
+.sign-up-secondary-text {
+  font-size: 18px;
+}
+
+.sign-up-button {
+  font-size: 18px;
+}
